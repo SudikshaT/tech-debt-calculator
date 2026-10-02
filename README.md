@@ -4,7 +4,17 @@ A web app that analyzes a portfolio of legacy applications, scores their "techno
 
 > This is a simplified demo model built for learning. It is not any company's proprietary method.
 
-![App screenshot](screenshot.png)
+## Screenshots
+
+**Sample data**
+
+![Sample data - summary and ranked table](screenshots/sample-top.png)
+![Sample data - charts and rejected rows](screenshots/sample-charts.png)
+
+**After uploading a 50-row messy dataset**
+
+![50-row dataset - summary and ranked table](screenshots/upload50-top.png)
+![50-row dataset - charts and rejected rows](screenshots/upload50-charts.png)
 
 ## Problem
 

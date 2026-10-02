@@ -7,11 +7,14 @@ st.title("Technology Debt Score and ROI Calculator")
 st.caption("A simplified demo model to prioritize legacy applications for retirement or migration.")
 
 # ---- Inputs ----
-uploaded = st.file_uploader("Upload a CSV of legacy applications", type="csv")
+uploaded = st.file_uploader("Upload a CSV or Excel file", type=["csv", "xlsx"])
 horizon = st.slider("Savings horizon (years)", min_value=1, max_value=10, value=3)
 
 if uploaded is not None:
-    raw = pd.read_csv(uploaded)
+    if uploaded.name.endswith(".xlsx"):
+        raw = pd.read_excel(uploaded)
+    else:
+        raw = pd.read_csv(uploaded)
 else:
     st.info("No file uploaded, so the sample data is being used.")
     raw = pd.read_csv("sample_apps.csv")

@@ -1,0 +1,16 @@
+app_name,age_years,yearly_cost,active_users,vendor_supported,migration_cost
+Old Payroll,15,"₹8,00,000",12,No,600000
+Legacy CRM,9,500000,150,Yes,900000
+Inventory System v1,12,450000,40,no,400000
+HR Portal,7,300000,220,Y,350000
+Old Billing,14,"7,00,000",25,No,800000
+Intranet Wiki,10,120000,60,yes,100000
+Email Archive Tool,11,350000,8,No,300000
+Legacy CRM,9,500000,150,Yes,900000
+Vendor Tracker,6,200000,,Yes,180000
+Finance Reports,13,650000,35,N,700000
+Support Ticketing,5,250000,300,Yes,500000
+Asset Manager,8,-100000,90,Yes,200000
+Document Store,16,900000,18,No,850000
+Training Portal,4,150000,400,Yes,300000
+Time Tracking,10,180000,75,YES,160000
